@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .box {
+      border: 1px solid #000000;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 220px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="https://github.com/MarkDev3/registration/blob/main/javascript.png?raw=true" alt="JavaScript Image">
+      <h2>Javascript</h2>
+      <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+    </div>
+
+    <div class="box">
+      <img src="https://github.com/MarkDev3/registration/blob/main/lua.png?raw=true" alt="Lua Image">
+      <h2>Lua</h2>
+      <p>Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications</p>
+    </div>
+
+    <div class="box">
+      <img src="https://github.com/MarkDev3/registration/blob/main/html.png?raw=true" alt="HTML Image">
+      <h2>HTML</h2>
+      <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+    </div>
+  </div>
+</body>
+</html>
